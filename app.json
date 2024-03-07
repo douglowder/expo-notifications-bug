@@ -15,13 +15,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "notification": {
-      "iosDisplayInForeground": true
-    },
-    "plugins": [
-      "@react-native-firebase/app",
-      "@react-native-firebase/messaging"
-    ],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -36,6 +29,13 @@
         "projectId": "2386e572-50f8-4d11-bd8b-adafdd21e84f"
       }
     },
-    "owner": "brandon-kyle-bailey"
+    "owner": "brandon-kyle-bailey",
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ],
+    "notification": {
+      "iosDisplayInForeground": true
+    }
   }
 }
