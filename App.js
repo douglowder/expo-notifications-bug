@@ -60,6 +60,7 @@ async function registerForPushNotificationsAsync() {
     }
     token = await Notifications.getExpoPushTokenAsync({
       projectId: Constants.expoConfig.extra.eas.projectId,
+      // projectId: "b55a8ab9-cd0d-4105-a204-70a7ec47ba79"
     });
     console.log(token);
   } else {
