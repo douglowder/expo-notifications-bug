@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -24,18 +26,18 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "2386e572-50f8-4d11-bd8b-adafdd21e84f"
-      }
-    },
-    "owner": "brandon-kyle-bailey",
     "plugins": [
       "@react-native-firebase/app",
       "@react-native-firebase/messaging"
     ],
     "notification": {
       "iosDisplayInForeground": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3f3f4ae-9eaf-4215-bb5e-37540895e03b"
+      }
+    },
+    "owner": "douglowderexpo"
   }
 }
